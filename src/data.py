@@ -14,7 +14,7 @@ REQUIRED_COLUMNS = {
 }
 
 
-def load_tickets(path=DATA_PATH):
+def load_tickets(path: Path = DATA_PATH) -> pd.DataFrame:
     """Load, clean and validate the ticket dataset"""
     df = pd.read_csv(path)
 
@@ -29,7 +29,7 @@ def load_tickets(path=DATA_PATH):
     return df
 
 
-def validate_columns(df):
+def validate_columns(df: pd.DataFrame) -> None:
     """Check whether the expected columns are present"""
     missing = REQUIRED_COLUMNS - set(df.columns)
 
@@ -37,7 +37,7 @@ def validate_columns(df):
         raise ValueError(f"Missing required columns: {sorted(missing)}")
 
 
-def validate_tickets(df):
+def validate_tickets(df: pd.DataFrame) -> None:
     """Validate the cleaned ticket dataset"""
 
     if df["ticket_id"].isna().any():
