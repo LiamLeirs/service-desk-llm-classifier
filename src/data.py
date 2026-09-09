@@ -5,27 +5,54 @@ import pandas as pd
 
 DATA_PATH = Path("data/tickets.csv")
 
+REQUIRED_COLUMNS = {
+    "ticket_id",
+    "onderwerp",
+    "omschrijving",
+    "systeemmelding",
+    "interne_notitie",
+}
+
 
 def load_tickets(path=DATA_PATH):
-    return pd.read_csv(path)
+    """Load, clean and validate the ticket dataset"""
+    df = pd.read_csv(path)
+
+    validate_columns(df)
+
+    # Remove completely empty rows and exact duplicates
+    df = df.dropna(how="all")
+    df = df.drop_duplicates()
+
+    validate_tickets(df)
+
+    return df
 
 
-def inspect_tickets(df):
-    print(f"Rows: {len(df)}")
-    print(f"Columns: {len(df.columns)}")
-    print(f"Unique ticket IDs: {df['ticket_id'].nunique()}")
+def validate_columns(df):
+    """Check whether the expected columns are present"""
+    missing = REQUIRED_COLUMNS - set(df.columns)
 
-    print("\nMissing values:")
-    print(df.isna().sum())
+    if missing:
+        raise ValueError(f"Missing required columns: {sorted(missing)}")
 
-    print("\nRows without ticket ID:")
-    print(df[df["ticket_id"].isna()].to_string())
 
-    print("\nDuplicate ticket IDs:")
-    duplicates = df[df["ticket_id"].duplicated(keep=False)]
-    print(duplicates.to_string())
+def validate_tickets(df):
+    """Validate the cleaned ticket dataset"""
+
+    if df["ticket_id"].isna().any():
+        raise ValueError("Missing ticket IDs found")
+
+    if not df["ticket_id"].is_unique:
+        raise ValueError("Duplicate ticket IDs found")
+
+    # Assignment specifically mentions 100 unique tickets
+    if len(df) != 100:
+        raise ValueError(f"Expected 100 tickets, found {len(df)}")
 
 
 if __name__ == "__main__":
     tickets = load_tickets()
-    inspect_tickets(tickets)
+
+    print(f"Loaded {len(tickets)} valid tickets.")
+    print(tickets.head())
