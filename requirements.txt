@@ -1,0 +1,21 @@
+# LLM API
+openai
+
+# Data processing
+pandas
+
+# Environment variables
+python-dotenv
+
+# Structured output validation
+pydantic
+
+# Evaluation metrics
+scikit-learn
+
+# Visualizations
+matplotlib
+
+# Notebook environment
+jupyterlab
+ipykernel
