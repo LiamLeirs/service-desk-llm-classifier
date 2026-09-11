@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5.4",
+  "api_calls": 100,
+  "input_tokens": 115626,
+  "output_tokens": 6056,
+  "reasoning_tokens": 0,
+  "visible_output_tokens": 6056,
+  "total_tokens": 121682,
+  "api_runtime_seconds": 276.9236294000584,
+  "wall_clock_runtime_seconds": 276.9567029000027,
+  "average_runtime_per_ticket": 2.769567029000027,
+  "retries": 0
+}

@@ -1,0 +1,5 @@
+ticket_id,categorie_gold,categorie_pred,prioriteit,te_valideren,security_flag,reden
+INC-4127,Netwerk,Overig,normaal,0,0,"De melding gaat over een storing bij de privé-internetprovider thuis en een vraag over afstemming rond thuiswerken, niet over een bedrijfs-IT-systeem."
+INC-4153,Toegang & Accounts,Printer,normaal,0,0,De melding noemt een mislukte pull-print authenticatie doordat de gebruiker niet meer gekoppeld is aan de badge-id op de multifunctional.
+INC-4232,Applicatieondersteuning,Software,hoog,0,0,"De nieuwe antivirusversie zet een legitieme calculatietool ten onrechte in quarantaine, wat wijst op een softwareblokkade door endpointsoftware."
+INC-4284,Applicatieondersteuning,Toegang & Accounts,P1,0,0,"De interne notitie vermeldt dat de API-sleutel van de koppeling is verlopen, waardoor het ERP via /orders HTTP 401 teruggeeft."

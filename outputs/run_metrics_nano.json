@@ -2,10 +2,12 @@
   "model": "gpt-5-nano",
   "api_calls": 100,
   "input_tokens": 115626,
-  "output_tokens": 105469,
-  "total_tokens": 221095,
-  "api_runtime_seconds": 838.1132682000007,
-  "wall_clock_runtime_seconds": 838.1402808999992,
-  "average_runtime_per_ticket": 8.381402808999992,
+  "output_tokens": 105847,
+  "reasoning_tokens": 96448,
+  "visible_output_tokens": 9399,
+  "total_tokens": 221473,
+  "api_runtime_seconds": 635.2730469999515,
+  "wall_clock_runtime_seconds": 635.3019382999919,
+  "average_runtime_per_ticket": 6.353019382999919,
   "retries": 0
 }

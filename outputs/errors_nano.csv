@@ -1,0 +1,9 @@
+ticket_id,categorie_gold,categorie_pred,prioriteit,te_valideren,security_flag,reden
+INC-4125,Software,Security,laag,0,0,Macro's uit bestanden op netwerklocaties worden geblokkeerd door beleidsinstelling vanwege beveiligingsbeleid tegen macros.
+INC-4126,Overig,Netwerk,?,1,0,"Meerdere storingen genoemd (traag opstarten PC, printer doet raar, mail niet altijd binnen en incidenteel niet kunnen inloggen) die samen mogelijk op netwerk-/connectiviteitsproblemen wijzen; de informatie is echter onvoldoende om dit definitief te bevestigen."
+INC-4144,Printer,Netwerk,laag,0,0,"SMTP-relay weigert berichten van het apparaat (MFP-2F-03), waardoor scan naar e-mail mislukt."
+INC-4153,Toegang & Accounts,Printer,normaal,0,0,"Pull-print authenticatie mislukt; gebruiker is niet gekoppeld aan badge-id, waardoor printopdrachten niet vrijgegeven kunnen worden."
+INC-4232,Applicatieondersteuning,Security,hoog,0,1,"De antivirus markeert calc_engine.exe als verdacht (heuristische detectie) en plaatst het in quarantaine, terwijl het een legitieme tool betreft."
+INC-4273,Hardware,Software,Normaal,0,0,"DisplayLink-adapter meldt een verbroken verbinding en het probleem treedt op bij meerdere docks, wat wijst op een software/drivers-gerelateerd probleem op de laptop."
+INC-4274 ,Overig,Hardware,laag,0,0,"Behoefte aan fysieke werkplekkequipment (bureau, stoel en stopcontacten) voor verhuizing naar de tweede verdieping."
+INC-4284,Applicatieondersteuning,Toegang & Accounts,P1,0,0,"Verlopen API-sleutel van de koppeling veroorzaakt HTTP 401 op het endpoint /orders, waardoor webshoporders niet in ERP binnenkomen."

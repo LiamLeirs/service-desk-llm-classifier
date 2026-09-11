@@ -1,0 +1,13 @@
+{
+  "model": "gpt-5-nano",
+  "api_calls": 100,
+  "input_tokens": 115626,
+  "output_tokens": 8051,
+  "reasoning_tokens": 0,
+  "visible_output_tokens": 8051,
+  "total_tokens": 123677,
+  "api_runtime_seconds": 272.5206779000582,
+  "wall_clock_runtime_seconds": 272.5491137000063,
+  "average_runtime_per_ticket": 2.7254911370000627,
+  "retries": 0
+}

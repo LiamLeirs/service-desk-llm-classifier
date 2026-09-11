@@ -1,101 +1,101 @@
 ticket_id,categorie,prioriteit,te_valideren,security_flag,reden
-INC-4101,Mobiel Toestel,normaal,0,0,Bedrijfsmail werkt niet op het privétoestel doordat het apparaat niet voldoet aan het beleid vanwege een te oude OS-versie en er is geen beschikbare OS-update voor dit toestel.
-INC-4102,Security,laag,0,1,"Onbedoelde verzending van een bestand met klantgegevens (340 klanten: ondernamen, namen, adressen en telefoonnummers) naar een verkeerde ontvanger en een mislukte terughaling, wat wijst op een mogelijk datalek."
-INC-4105,Printer,hoog,0,0,De multifunctionals staan offline omdat de printpoort nog naar het oude IP-adres verwijst (10.20.4.x) na verhuizing naar de nieuwe vleugel.
-INC-4110,Security,normaal,0,1,Phishing-e-mail die om gegevens vraagt; gebruiker heeft inloggegevens ingevoerd en er is aangemeld vanaf onbekende locatie.
-INC-4111,Toegang & Accounts,normaal,0,0,"Gebruiker wisselde vorige week van team en dataset-rechten zijn nog niet aangepast, waardoor geen toegang tot de dataset is en het BI-rapport niet kan draaien."
-INC-4113,Overig,,1,0,"De tickettekst bevat geen inhoudelijke informatie; de omschrijving verwijst alleen naar een bijlage, waardoor de onderliggende oorzaak niet bepaald kan worden."
-INC-4116,Toegang & Accounts,n.v.t.,0,0,Gebruiker is zijn wachtwoord kwijt en kan niet in het werkaccount; ook heeft hij geen toegang tot self-service en kan geen e-mail openen.
-INC-4117,Hardware,,0,0,"Disk 2 is degraded en RAID rebuild is niet gestart, wat wijst op een hardwarefout in het opslagarray."
-INC-4119,Overig,laag,0,0,Het ticket beschrijft een opleidingsvraag (cursus/e-learning) over draaitabellen en formules; er is geen melding van een technisch probleem.
-INC-4120,Applicatieondersteuning,hoog,0,0,"Dubbele boekingen in ERP na update van de koppeling, wat wijst op een fout in de bedrijfsapplicatie-integratie."
-INC-4122,Toegang & Accounts,normaal,0,0,Toegang geweigerd tot de map Projecten op de afdelingsschijf.
-INC-4123,Overig,laag,0,0,Koffieautomaat geeft storing (display toont storing) en levert alleen heet water; dit is een facilitaire hardware-issue en geen IT-gerelateerd probleem.
-INC-4124,Toegang & Accounts,normaal,0,0,"Rol HR-adviseur toegewezen maar autorisatiegroep niet gesynchroniseerd, waardoor Jasper geen toegang heeft tot personeelsdossiers."
-INC-4125,Security,laag,0,0,Macro's uit bestanden op netwerklocaties worden geblokkeerd door het beveiligingsbeleid.
-INC-4126,Overig,?,1,0,"Meerdere uiteenlopende IT-problemen (langzame PC-start, printergedrag, onregelmatige e-mailbezorging en een inlogprobleem gisteren) maken de onderliggende oorzaak niet duidelijk; er is behoefte aan telefonisch overleg om het te doorgronden."
-INC-4127,Netwerk,normaal,0,0,"Thuisinternet ligt eruit door een providerstoring, waardoor thuiswerken niet mogelijk is."
-INC-4129,Applicatieondersteuning,laag,0,0,"Het HR-systeem toont een onjuist verlofsaldo en ontbrekende verlofopbouw (januari-maart), wat wijst op een functionele afwijking in de HR-applicatie."
-INC-4130,Toegang & Accounts,hoog,0,0,"Het ticket beschrijft ontbrekende onboarding provisioning: er is nog geen account, geen mailbox en geen toegang tot de magazijnapplicatie voor een nieuwe medewerker, terwijl de aanvraag drie weken geleden via HR is ingediend."
-INC-4131,Mobiel Toestel,normaal ,0,0,"Scherm van de zakelijke telefoon is gebarsten en reageert niet op aanraking, wat wijst op een hardwareprobleem en reparatie of vervanging vereist."
-INC-4134,Software,Normaal,0,0,"De console geeft aan dat een browserextensie de inhoud blokkeert bij het leveranciersportaal; het uitschakelen van de extensie laat de portal werken, maar na een herstart verschijnt de extensie weer."
-INC-4136,Toegang & Accounts,hoog,0,0,Login mislukt doordat de MFA-authenticator nog op het oude toestel staat en de MFA-methode niet geregistreerd is voor dit account op het nieuwe toestel.
-INC-4138,Security,hoog,0,1,"Meerdere MFA-verzoeken vanaf een IP-reeks buiten België die de gebruiker niet heeft gestart, wijzen op mogelijk onbevoegde toegang tot het account."
-INC-4140,Applicatieondersteuning,normaal,0,0,"De tijdregistratie berekent uren na 18:00 op vrijdag niet als overuren zoals vastgelegd, nadat de urenregels vorige maand zijn aangepast; dit wijst op een functionele/rekenkundige afwijking in de bedrijfsapplicatie."
-INC-4143,Toegang & Accounts,laag,0,0,Nieuwe collega moet worden aangemaakt in de planningstool en rechten toegewezen (gelijke rechten als de rest van het team); ze kan nog niet inloggen omdat haar account nog niet bekend is in het systeem.
-INC-4144,Netwerk,laag,0,0,"SMTP-relay weigert berichten van het MFP, wat wijst op een netwerk/relay-configuratieprobleem dat de scan-to-email functionaliteit verhindert."
-INC-4146,Applicatieondersteuning,hoog,0,0,Offertes kunnen in CRM niet worden omgezet naar orders; knop blijft grijs en de foutmelding 'Workflow status ongeldig' duidt op een probleem in de CRM-functionaliteit.
-INC-4147,Hardware,-,0,0,Ruis bij de ventilator en oververhitting wijzen op een hardwareprobleem met de koeling van de laptop.
-INC-4152,Applicatieondersteuning,hoog,0,0,ERP-applicatie crasht bij openen van order 84022; time-out bij gegevensretrieval en backendservice reageert niet binnen 30 seconden.
-INC-4153,Toegang & Accounts,normaal,0,0,Pull-print authenticatie faalt na wachtwoordwijziging; systeemmelding 'gebruiker niet gekoppeld aan badge-id' wijst op een koppelingprobleem tussen badge en account.
-INC-4158,Mobiel Toestel,normaal,0,0,"MDM-profiel heeft mobiele data voor dit toestel geblokkeerd gezet, waardoor buiten kantoor geen dataverbinding mogelijk is."
-INC-4160,Applicatieondersteuning,P1,0,0,"Interface WMS2ERP_RETOUR mapping error: locatiecode wordt niet herkend, waardoor retourmutaties uit magazijn 2 niet naar ERP worden doorgezet."
-INC-4161,Overig,,0,0,Het ticket beschrijft een afwezigheidsmelding en geen IT-gerelateerd probleem.
-INC-4162,Mobiel Toestel,laag,0,0,"Het vraagstuk betreft roaming en databundel voor het zakelijke mobiele abonnement tijdens verblijf in Canada, en de impact op bereik en kosten."
-INC-4167,Toegang & Accounts,laag,0,0,"Uitdiensttreding van Peter Van Dam; blokkeren van zijn account, mailbox overzetten naar de leidinggevende, intrekken van de toegangspas en inlevering van de laptop op de laatste werkdag."
-INC-4169,Hardware,Hoog,0,0,"Bij het opstarten geeft het werkstation drie korte piepjes en blijft het hangen op een zwart scherm, wat wijst op een hardwarefout tijdens POST die het opstarten verhindert."
-INC-4170,Toegang & Accounts,normaal,0,0,Verlies van een toegangspas en verzoek om de oude pas te blokkeren en een vervangende pas aan te vragen voor gebouwtoegang.
-INC-4171,Netwerk,HOOG,0,0,Gateway timeout en geen antwoord van vpn-gw-02 wijzen op een VPN-gateway/netwerkprobleem waardoor de VPN-verbinding niet tot stand komt.
-INC-4172,Security,P1,0,1,"Phishing-meldingen over een login-achtige pagina; 11 meldingen vanaf afzenderdomein bedrijf-login.net en twee medewerkers hebben op de link geklikt, met verzoek om accounts te controleren en afzender te blokkeren."
-INC-4173,Toegang & Accounts,hoog,0,0,Nieuwe telefoon gebruikt maar Authenticator ontbreekt; geen actieve MFA-registratie gevonden waardoor inloggen niet mogelijk is.
-INC-4176,Security,normaal ,0,1,"Voormalig collega die in mei uit dienst ging heeft nog steeds een actief account en heeft mogelijk klantdossiers geopend, met de laatste aanmelding 6 dagen geleden vanaf extern IP."
-INC-4181,Security,normaal,0,1,Phishing: wachtwoord en Authenticator-code gedeeld aan nep-helpdeskmedewerker; inlog vanaf onbekend IP-adres en account tijdelijk geblokkeerd.
-INC-4186,Printer,normaal,0,0,Het kwartaalquota voor printen is bereikt; er wordt gevraagd om het tegoed te verhogen en om een verbruiksoverzicht per gebruiker.
-INC-4187,Mobiel Toestel,urgent!!! ,0,0,"Het ticket beschrijft een zakelijke smartphone die zwart blijft en niet oplaadt, en een meldingspunt dat het apparaat al 26 uur geen contact heeft gemaakt met de MDM-omgeving."
-INC-4190,Security,normaal,0,1,Malwaremelding (Trojan.GenericKD) en quarantaine van het bestand na het downloaden van een document uit een e-mail van een onbekende afzender.
-INC-4193,Mobiel Toestel,H,0,0,Toestel vertoont herhaalde reboots en blijft soms hangen bij het logo; systeemmelding geeft aan dat de laatste OS-update is mislukt.
-INC-4195,Applicatieondersteuning,hoog,0,0,"Validatiefout in het facturatieportaal: regel 87, veld btw_code verwacht 2 posities."
-INC-4197,Mobiel Toestel,normaal,0,0,"Tablet kan zich niet registreren in het beheersprofiel; foutmelding 'Enrollment failed, device not found in autopilot list' wijst op een enrolment/MDM-probleem op het apparaat."
-INC-4202,Mobiel Toestel,hoog,0,0,"Een hardwareprobleem aan een zakelijke mobiele telefoon: batterij opgezwollen en achterkant bol, het toestel warmt op tijdens laden; verzoek om vervanging."
-INC-4207,Applicatieondersteuning,P1,0,0,"Extreem trage responstijden bij openen van een klantdossier in de klantapplicatie sinds release, met melding van gem. responstijd 38s en gedetecteerde database locks, wat duidt op een applicatie-/databases prestatieprobleem."
-INC-4212,Netwerk,Normaal,0,0,Wifi-verbinding valt weg in kantoortuin west; 'Client roaming failed' en 'beacon van AP-W-14 verloren' duiden op een AP-/roaming-gerelateerd netwerkprobleem.
-INC-4213,Security,P1,0,1,Er is sprake van een ransomware-incident: bestanden in de projectmap zijn versleuteld en er ligt een losgeldbericht; endpointdetectie meldt massale bestandswijzigingen door het proces svhost32.exe.
-INC-4216,Printer,laag,0,0,Papierstoring in lade 3 van de printer; sensor S4 meldt jam.
-INC-4221,Security,laag,0,0,"Het ticket vraagt naar bestaand beleid omtrent het gebruik van een publieke AI-chatbot voor klantmails en of klantgegevens hiermee mogen worden verwerkt, wat wijst op beveiligings- en privacy-overwegingen."
-INC-4226,Software,2,0,0,Office meldt geen geldige licentie; het huidige toestel is niet toegewezen aan een actieve licentie omdat de licentie nog op het oude apparaat stond en een hertoewijzing nodig is.
-INC-4229,Hardware,normaal,0,0,"Power Delivery-onderhandeling mislukt bij de docking, waardoor de laptop niet via de dock oplaadt (opladen lukt wel rechtstreeks op de laptop)."
-INC-4232,Security,hoog,0,1,Nieuwe antivirusversie markeert calc_engine.exe als verdachte en plaatst het in quarantaine; er wordt om een uitzondering gevraagd.
-INC-4234,Overig,,0,0,"Het ticket bevat uitsluitend een afzendercontact en een algemene vraag, zonder IT-gerelateerde informatie."
-INC-4239,Toegang & Accounts,hoog,0,0,Het account is vergrendeld na meerdere mislukte inlogpogingen en de zelfservice kan geen reset uitvoeren wegens te veel aanvragen.
-INC-4241,Hardware,P2,0,0,"De batterij laadt niet op en er is een melding 'replace soon'; de laptop werkt alleen wanneer aangesloten op de docking, wat wijst op een hardwareprobleem met de batterij."
-INC-4246,Software,laag,0,0,"De knop voor de AI‑assistent in Word/Outlook meldt dat de account geen licentie heeft, wat wijst op een ontbrekende licentie voor deze Office‑functie."
-INC-4247,Security,hoog,0,1,Diefstal van een werk-laptop met klantgegevens en een toegangspas; aangifte gedaan en verzoek tot remote blokkeren.
-INC-4250,Hardware,hoog,0,0,Melding van dreigende harde-schijffaling na herstart; er is verzocht om vervanging van de schijf en een leentoestel.
-INC-4255,Applicatieondersteuning,normaal,0,0,"De foutmelding 'Query DWH_SALES_MONTH mislukt, object of view bestaat niet' wijst op een ontbrekend object/view in het datawarehouse dat de BI-query gebruikt."
-INC-4256,Toegang & Accounts,hoog,0,0,"Het wachtwoord is verlopen en de resetlink werkt niet, waardoor toegang tot ERP en mailbox niet mogelijk is."
-INC-4257,Netwerk,P1,0,0,"Uplink utilization is 98% for over 60 minutes, indicating on-latency/bandwidth congestion at the location Hasselt, wat de traagheid van internet en videobellen veroorzaakt."
-INC-4258,Software,Hoog,0,0,Na een automatische beveiligingsupdate start de laptop niet meer op en geeft de bootmelding 0xc000000f; dit wijst op een bootomgeving/ OS-configuratieprobleem door de update.
-INC-4259,Software,Normaal,0,0,"Outlook crasht bij opstart (Outlook.exe, foutcode 0xc0000005) ondanks het uitschakelen van add-ins, het aanmaken van een nieuw profiel en het repareren van Office; webmail werkt wel, wat wijst op een probleem met de lokale Outlook-client."
-INC-4261,Netwerk,hoog,0,0,Het wifi-netwerk 'CORP' verschijnt niet meer in de lijst van beschikbare netwerken; collega\'s op dezelfde verdieping hebben hetzelfde probleem en de bekabeling werkt wel.
-INC-4264,Hardware,normaal,0,0,"Headset vertoont hardwarefout: ruis en kraken bij gebruik en een losse kabel bij de aansluiting, terwijl de ingebouwde microfoon wel goed werkt."
-INC-4265 ,Software,laag,0,0,"Installatie van de PDF-editor faalt tijdens uitpakken met foutcode 1603; het probleem lijkt op een software-installatie, terwijl een collega het pakket wel succesvol kan installeren."
-INC-4267,Printer,hoog,0,0,"De MFP-INK-01 staat offline in de printwachtrij en reageert niet op printopdrachten; er is een foutmelding over de fuser, wat duidt op een printerhardwareprobleem."
-INC-4269,Printer,hoch,0,0,De melding 'Fuser unit error 50.2' wijst op een hardwarefout in de fuser van de printer; software-herstart en wachtrij resetten bieden geen oplossing.
-INC-4270,Software,hoog,0,0,"Excel crasht bij openen van grote bestanden na uitrol van de antivirusclient; foutmelding Excel.exe beëindigd, module vbe7.dll, wat wijst op een software-compatibiliteitsprobleem tussen Office en de antiviruscomponent."
-INC-4271,Netwerk,Hoog,0,0,VPN-connectiviteit faalt: gateway timeout en geen antwoord van vpn-gw-02 na het invoeren van credentials.
-INC-4273,Hardware,Normaal,0,0,"Dockingstation met DisplayLink-adapter meldt verbroken verbinding; bij gebruik met dock werkt slechts één van twee monitoren, terwijl rechtstreeks op de laptop beide schermen wel functioneren."
-INC-4274 ,Hardware,laag,0,0,"Het verzoek draait om provisioning van acht werkplekken (bureau, stoel en stopcontacten) voor een verhuizing naar de tweede verdieping, inclusief informatie over wie dit moet aanvragen en de doorlooptijd."
-INC-4276,Hardware,Normaal,0,0,Na de firmware-update van het dockingstation wordt de tweede monitor niet herkend; systeemmelding: USB-C alt mode niet onderhandeld.
-INC-4279,Overig,,1,0,"Er ontbreken specifieke details over wat er niet werkt en welke toepassing of component betrokken is, waardoor de onderliggende oorzaak niet betrouwbaar kan worden bepaald."
-INC-4282,Hardware,urgent!!!,0,0,"De HDMI-switcher was losgekoppeld tijdens de schoonmaak, waardoor geen beeld op het scherm verschijnt."
-INC-4284,Applicatieondersteuning,P1,0,0,"Koppeling webshop-ERP faalt door verlopen API-sleutel, waardoor API-endpoint /orders HTTP 401 geeft."
-INC-4286,Netwerk,normaal,0,0,"Er is 11% gemiddeld pakketverlies richting de mediarelay bij videoconferenties, wat duidt op een netwerk-/connectiviteitsprobleem."
-INC-4288,Hardware,laag,0,0,"De melding 'Signal integrity warning op displaypoort' in combinatie met hetzelfde gedrag bij verschillende kabels, poorten en laptops wijst op een hardwareprobleem met de beeldoutput (monitor/ videopoort), en niet op netwerk-gerelateerde oorzaken."
-INC-4290,Printer,normaal,0,0,"Printer op de tweede verdieping levert lege pagina's na tonerwissel en de melding Tonerniveau kritisch, drukkop mogelijk niet geplaatst ondersteunt dat dit een printerhardwareprobleem betreft."
-INC-4295,Security,laag,0,1,"USB-stick werd in de werklaptop geplaatst; systeemmelding gaf aan dat autorun.inf op het verwisselbaar medium werd geblokkeerd, wat wijst op mogelijk schadelijke activiteit of malware."
-INC-4297,Toegang & Accounts,normaal,0,0,"Toegangsrechten op \fileserver01\afdeling_inkoop zijn mogelijk niet toegepast na teamwijziging, aangezien de gebruiker 'Access is denied' krijgt terwijl collega met dezelfde rol toegang heeft."
-INC-4299,Security,normaal,0,1,"Onverwachte e-mail die op een leveranciersfactuur lijkt, met afwijkende afzender en link naar een onbekend domein; spamfilter labelde het als mogelijk phishing."
-INC-4300,Toegang & Accounts,,0,0,De gebruiker kan niet inloggen op de portal en vraagt om een wachtwoordreset.
-INC-4303,Software,hoog ,0,0,Hoge diskactiviteit door Antimalware Service Executable (OS/antiviruscomponent) veroorzaakt traagheid van de laptop.
-INC-4304,Netwerk,hoog,0,0,"Gastennetwerk is zichtbaar en verbinding mogelijk, maar de captive portal/voucher-aanmeldpagina verschijnt niet; de aanmelding voor bezoekers kan daardoor niet plaatsvinden."
-INC-4305,Software,normaal,0,0,Teams detecteert de headset niet terwijl Windows-instellingen en andere apps de microfoon wel herkennen; melding 'Teams audio device enumeration failed' wijst op een software-/Teams-gerelateerd probleem in plaats van een hardwareprobleem.
-INC-4308,Mobiel Toestel,normaal,0,0,Installatie van de bedrijfsapp op de mobiele telefoon blijft hangen met 'App install pending' en onbekende device compliance status; afhandeling ligt bij het MDM-team.
-INC-4309,Netwerk,P1,0,0,Bevestigde storing bij de internetprovider leidt tot uitval van de primaire WAN-link bij locatie Gent; failover is actief.
-INC-4311,Printer,,1,0,"Printer op 1e verdieping staat offline in de lijst, lampje brandt groen en andere printers werken; er is onvoldoende informatie om de onderliggende oorzaak betrouwbaar te bepalen."
-INC-4316,Netwerk,laag,0,0,Snelheidsproblemen bij VPN en de melding 'Concurrent sessions op vpn-gw-01 boven 90 procent van de licentielimiet' duiden op capaciteit/belastingprobleem op de VPN-gateway.
-INC-4318,Applicatieondersteuning,normaal,0,0,CRM-maandrapport telt bedragen van klanten met meerdere contactpersonen dubbel; oorzaak lijkt een fout in de rapportdefinitie sinds de laatste release.
-INC-4320,Overig,,1,0,De melding bevat geen IT-gerelateerde details en meldt alleen dat het onderwerp onduidelijk is en om context is gevraagd.
-INC-4321,Netwerk,normaal ,0,0,"Bekabelde verbinding valt weg en de logs melden 'Interface flap detected op switchport 1/24; link state change x14', wat duidt op switchpoort-/netwerkprobleem."
-INC-4324,Printer,normaal,0,0,"Installatie van de printerdriver faalt op de nieuwe laptop met de foutmelding 'driver niet ondertekend', waardoor de multifunctional niet aan de printlijst kan worden toegevoegd."
-INC-4325,Netwerk,hoog,0,0,"Netwerkstoring door de onbereikbare switch SW-3F-02 (met down-ports) veroorzaakte dat printen, e-mail en toegang tot de netwerkschijf niet werkten; de switch is hersteld en printing werkt weer."
-INC-4328,Netwerk,normaal,0,0,"SMB-latency boven drempelwaarde met retransmissies veroorzaakt trage toegang tot de netwerkschijf, wat door meerdere gebruikers op dezelfde locatie wordt bevestigd."
+INC-4101,Mobiel Toestel,normaal,0,0,Bedrijfsmail op het privétoestel werkt niet omdat het toestel niet voldoet aan het beleid: de OS-versie is te oud en er is geen nieuwere versie beschikbaar.
+INC-4102,Security,laag,0,1,"Onbedoelde verzending van een bestand met klantgegevens (naam, adres en telefoonnummer van 340 klanten) naar een verkeerd mailadres."
+INC-4105,Printer,hoog,0,0,"Printerpoorten verwijzen nog naar het oude IP-adres 10.20.4.x na verhuizing, waardoor de multifunctionals offline blijven ondanks het nieuwe IP."
+INC-4110,Security,normaal,0,1,"Phishing-e-mail vroeg om inloggegevens; er werd ingelogd vanaf een onbekende locatie, wat wijst op een mogelijk beveiligingsincident."
+INC-4111,Toegang & Accounts,normaal,0,0,"Na de teamwijziging zijn de dataset-rechten nog niet aangepast, waardoor de gebruiker geen toegang heeft tot de dataset."
+INC-4113,Overig,,1,0,Ticket bevat geen inhoudelijke IT-probleeminformatie; alleen verwijzing naar bijlage.
+INC-4116,Toegang & Accounts,n.v.t.,0,0,"Ik ben mijn wachtwoord kwijt en kan hierdoor niet in mijn werkaccount komen, en heb daardoor geen toegang tot de zelfservice of e-mail."
+INC-4117,Hardware,,0,0,"Schijf 2 is degraded en RAID-rebuild is niet gestart, wat wijst op een hardware/RAID-probleem bij het opslagapparaat."
+INC-4119,Overig,laag,0,0,Vraag naar interne cursus/e-learning voor draaitabellen en formules; gaat puur om opleiding en er is geen storing of fout gemeld.
+INC-4120,Applicatieondersteuning,hoog,0,0,"Facturen worden dubbel aangemaakt in ERP na goedkeuring in het facturatieportaal, gestart na de koppelingenupdate en treft meerdere goedkeurders."
+INC-4122,Toegang & Accounts,normaal,1,0,Bevat twee onderwerpen: wijziging van het gsm-abonnement en toegang geweigerd tot de map Projecten op de afdelingsschijf; hierdoor is de juiste classificatie niet eenduidig.
+INC-4123,Overig,laag,0,0,"Koffieautomaat op de gelijkvloerse verdieping geeft storing en levert alleen heet water; dit is een facilitaire kwestie, geen IT-probleem."
+INC-4124,Toegang & Accounts,normaal,0,0,"De HR-rol is toegewezen maar de autorisatiegroep is niet gesynchroniseerd, waardoor Jasper geen toegang heeft tot personeelsdossiers."
+INC-4125,Security,laag,0,0,Macro's uit bestanden op netwerklocaties worden geblokkeerd door beleidsinstelling vanwege beveiligingsbeleid tegen macros.
+INC-4126,Netwerk,?,1,0,"Meerdere storingen genoemd (traag opstarten PC, printer doet raar, mail niet altijd binnen en incidenteel niet kunnen inloggen) die samen mogelijk op netwerk-/connectiviteitsproblemen wijzen; de informatie is echter onvoldoende om dit definitief te bevestigen."
+INC-4127,Netwerk,normaal,0,0,"Er is geen internetverbinding thuis door een storing bij de provider, waardoor thuiswerken niet mogelijk is."
+INC-4129,Applicatieondersteuning,laag,0,0,"Het HR-systeem toont een onjuist verlofsaldo (4 dagen in plaats van 14) en ontbreekt de verlofopbouw van januari tot en met maart, wat wijst op een applicatieprobleem in de HR-applicatie."
+INC-4130,Toegang & Accounts,hoog,0,0,"Nieuwe medewerker heeft geen account, mailbox en magazijnapplicatie-toegang; de aanvraag via HR is drie weken geleden ingediend."
+INC-4131,Mobiel Toestel,normaal ,0,0,Scherm van zakelijke telefoon is gebarsten na een val; het touchscreen reageert niet op het onderste deel.
+INC-4134,Software,Normaal,0,0,"Een browserextensie blokkeert de inhoud van het leveranciersportaal; bij uitschakelen werkt de pagina, maar de extensie wordt bij herstart opnieuw ingeschakeld."
+INC-4136,Toegang & Accounts,hoog,0,0,"MFA-methode is niet geregistreerd voor dit account en de authenticator staat nog op het oude toestel, waardoor login op het nieuwe toestel niet kan worden goedgekeurd."
+INC-4138,Security,hoog,0,1,Meerdere MFA-verzoeken vanaf een IP-reeks buiten België duiden op verdachte inlogactiviteit; wachtwoord is niet gedeeld.
+INC-4140,Applicatieondersteuning,normaal,0,0,Het probleem betreft een rekenkundige afwijking in de tijdregistratiesoftware waarbij overuren na 18:00 op vrijdag niet correct worden meegerekend sinds de wijziging van de urenregels.
+INC-4143,Toegang & Accounts,laag,0,0,"Het ticket beschrijft het aanmaken van een nieuw gebruikersaccount en het toewijzen van dezelfde rechten in de planningstool, omdat de nieuwe medewerker nog niet bekend is in het systeem en daardoor niet kan inloggen."
+INC-4144,Netwerk,laag,0,0,"SMTP-relay weigert berichten van het apparaat (MFP-2F-03), waardoor scan naar e-mail mislukt."
+INC-4146,Applicatieondersteuning,hoog,0,0,CRM-functie om offertes om te zetten naar orders werkt niet; knop blijft grijs en foutmelding 'Workflow status ongeldig'.
+INC-4147,Hardware,-,0,0,"Laptop maakt lawaai en wordt heet, wat wijst op een ventilator- of koelingsprobleem en een inspectie vereist."
+INC-4152,Applicatieondersteuning,hoog,0,0,"ERP-crash bij openen van order 84022 en time-out bij gegevensretrieval; backendservice reageert niet binnen 30s, wat wijst op een ERP/backend-applicatieprobleem."
+INC-4153,Printer,normaal,0,0,"Pull-print authenticatie mislukt; gebruiker is niet gekoppeld aan badge-id, waardoor printopdrachten niet vrijgegeven kunnen worden."
+INC-4158,Mobiel Toestel,normaal,0,0,"MDM-profiel heeft mobiele data op dit toestel geblokkeerd gezet, waardoor buiten wifi geen mobiel internet beschikbaar is."
+INC-4160,Applicatieondersteuning,P1,0,0,"Interface WMS2ERP_RETOUR mapping error, veld locatiecode niet herkend waardoor retourmutaties niet van WMS naar ERP worden doorgezet."
+INC-4161,Overig,,0,0,Het ticket beschrijft een afwezigheidsbericht (out-of-office) in e-mail en dat berichten niet doorgestuurd worden.
+INC-4162,Mobiel Toestel,laag,0,0,Vraag of het zakelijke mobiele abonnement werkt in Canada en of er een databundel nodig is tijdens drie weken verblijf; doel is hoge kosten te voorkomen en te zorgen voor connectivity tijdens klantbezoeken.
+INC-4167,Toegang & Accounts,laag,0,0,"Beëindiging dienstverband; account blokkeren, mailbox omzetten naar leidinggevende, toegangspas innemen en laptop inleveren."
+INC-4169,Hardware,Hoog,0,0,"Tijdens het opstarten geeft het werkstation drie korte piepjes en blijft hangen op een zwart scherm zonder logo, wat wijst op een hardware-bootfout."
+INC-4170,Toegang & Accounts,normaal,0,0,Bevestigd: toegangspas verloren; verzoek tot blokkeren van de oude pas en uitgifte van een nieuwe pas.
+INC-4171,Netwerk,HOOG,0,0,VPN-verbinding faalt met gateway timeout; geen antwoord van vpn-gw-02.
+INC-4172,Security,P1,0,1,Phishing-bericht(en) met verzoek om inloggen op een nep-inlogpagina; melding van 11 getroffen medewerkers en twee klikken; afzenderdomein bedrijf-login.net.
+INC-4173,Toegang & Accounts,hoog,0,0,"Op het nieuwe toestel ontbreekt een actieve MFA-registratie, waardoor inloggen op laptop en webmail niet mogelijk is; verzoek om MFA opnieuw in te stellen."
+INC-4176,Security,normaal ,0,1,Voormalig collega (uit dienst mei) heeft nog actief account met toegang tot klantdossiers; laatste aanmelding 6 dagen geleden vanaf extern IP.
+INC-4181,Security,normaal,0,1,Phishing-achtige telefonisch gevraagd om wachtwoord en Authenticator-code verstrekt; melding van verdachte aanmelding vanaf onbekend IP en tijdelijke blokkade van het account.
+INC-4186,Printer,normaal,0,0,Het probleem betreft het bereiken van het kwartaalprintquota en het verzoek om verhoging van het tegoed en een overzicht van verbruik per gebruiker.
+INC-4187,Mobiel Toestel,urgent!!! ,0,0,"Het zakelijke mobiele toestel laadt niet en heeft al 26 uur geen contact gemaakt met de MDM-omgeving, wat duidt op een mobiel apparaat-/MDM-connectiviteitsprobleem."
+INC-4190,Security,normaal,0,1,Malware-detectie (Trojan.GenericKD) na download van een document uit een onbekende afzender; bestand in quarantaine verwijderd.
+INC-4193,Mobiel Toestel,H,0,0,"Een werkmobiele telefoon start voortdurend opnieuw op en loopt vast bij het opstarten, met een mislukte OS-update."
+INC-4195,Applicatieondersteuning,hoog,0,0,"Het facturatieportaal geeft een validatiefout op regel 87: het veld btw_code vereist twee posities, waardoor het aangeleverde bestand wordt geweigerd."
+INC-4197,Mobiel Toestel,normaal,0,0,"Tablet kan niet worden ingeschreven bij het beheerprofiel/MDM (Autopilot); melding 'Enrollment failed, device not found in autopilot list' geeft aan dat het toestel ontbreekt in de autopilot-lijst."
+INC-4202,Mobiel Toestel,hoog,0,0,Mobiel toestel met opgezwollen batterij (bolle achterkant) en warmte tijdens laden; dit duidt op een hardwareprobleem en er wordt gevraagd om inlevering en vervangend toestel.
+INC-4207,Applicatieondersteuning,P1,0,0,Na de release is het klantdossiersysteem extreem traag (38s responstijd op de applicatieserver) en zijn databaselocks gedetecteerd.
+INC-4212,Netwerk,Normaal,0,0,Roaming-fout en beacon-verlies bij AP-W-14 duiden op WLAN-/AP-gerelateerd probleem in kantoortuin west.
+INC-4213,Security,P1,0,1,"Ransomware-achtig incident: bestanden in de projectmap krijgen ongebruikelijke extensies, er staat een ransom-bericht in een tekstbestand en endpointdetectie signaleert massale bestandwijzigingen door svhost32.exe."
+INC-4216,Printer,laag,0,0,"Papier vast in lade 3 van de printer, met systeemmelding 'Jam in tray 3' en sensor S4."
+INC-4221,Overig,laag,0,0,Het ticket vraagt naar beleid en toegestane praktijken voor het gebruik van een publieke AI-chatbot bij klantmails en of klantgegevens gedeeld mogen worden.
+INC-4226,Software,2,0,0,Word/Office meldt geen geldige licentie en het apparaat is niet toegewezen aan een actieve licentie; de licentie stond nog op het oude toestel en moet opnieuw toegewezen worden door licentiebeheer.
+INC-4229,Hardware,normaal,0,0,"Power Delivery-onderhandeling mislukt bij het dockingstation (geleverd vermogen 15W), waardoor de laptop via het dock niet oplaadt."
+INC-4232,Security,hoog,0,1,"De antivirus markeert calc_engine.exe als verdacht (heuristische detectie) en plaatst het in quarantaine, terwijl het een legitieme tool betreft."
+INC-4234,Overig,,0,0,Ticket bevat geen IT-probleem of vraag; enkel contactgegevens en afdelingsinformatie.
+INC-4239,Toegang & Accounts,hoog,0,0,Account is tijdelijk vergrendeld na meerdere mislukte inlogpogingen.
+INC-4241,Hardware,P2,0,0,"Batterij laadt niet op (indicator blijft uit) en de laptop werkt alleen wanneer aangesloten op de docking, ondanks twee adapters getest."
+INC-4246,Software,laag,0,0,"Het account heeft geen licentie toegewezen voor de AI-assistent in Word/Outlook, waardoor de knop geen licentie ziet."
+INC-4247,Security,hoog,0,1,"Diefstal van de werklaptop uit de auto met klantgegevens en een toegangspas, wat wijst op een potentieel beveiligingsincident en er wordt gevraagd om het apparaat op afstand te blokkeren."
+INC-4250,Hardware,hoog,0,0,De melding 'Hard disk failure imminent' duidt op een dreigende harde-schijffout; vervanging van de schijf is gepland.
+INC-4255,Applicatieondersteuning,normaal,0,0,De BI-omgeving faalt bij de query naar het datawarehouse doordat het object DWH_SALES_MONTH niet bestaat.
+INC-4256,Toegang & Accounts,hoog,0,0,"Wachtwoord is verlopen, waardoor inloggen bij ERP en e-mail niet mogelijk is; resetlink geeft een fout."
+INC-4257,Netwerk,P1,0,0,"Locatie Hasselt ervaart overal traag internet en de uplink is 98% benut gedurende meer dan 60 minuten, wat wijst op een netwerk-/bandbreedteprobleem."
+INC-4258,Software,Hoog,0,0,Na een automatische beveiligingsupdate start de laptop niet op en geeft de opstartfout 0xc000000f weer in de bootomgeving.
+INC-4259,Software,Normaal,0,0,"Outlook crasht bij openen (outlook.exe, 0xc0000005) ondanks uitgeschakelde add-ins en een reparatie van Office."
+INC-4261,Netwerk,hoog,0,0,Het wifi-netwerk 'CORP' verschijnt niet meer in de wifi-lijst op kantoor Liège; meerdere collega's hebben hetzelfde probleem terwijl de bekabeling werkt.
+INC-4264,Hardware,normaal,0,0,"Headset geeft ruis/kraken en heeft een losse kabel bij de aansluiting; de ingebouwde microfoon klinkt wel goed en het probleem komt ook voor op andere laptops, wat wijst op een hardwarefout aan de headset."
+INC-4265 ,Software,laag,0,0,"Installatie van de PDF-editor faalt tijdens het uitpakken van het installatiepakket met foutcode 1603, wat duidt op een software-installatieprobleem."
+INC-4267,Printer,hoog,0,0,"MFP-INK-01 toont een fuser-fout en reageert niet op printopdrachten, hetgeen wijst op een printerhardwareprobleem."
+INC-4269,Printer,hoch,0,0,"De printer op de derde verdieping geeft de foutmelding 'Fuser unit error 50.2' (Fixiereinheit), wat wijst op een hardwareprobleem met de printer."
+INC-4270,Software,hoog,0,0,"Nieuwe antivirusclient veroorzaakt vermoedelijk een conflict met Excel, waardoor Excel crasht bij het openen van grote bestanden (Excel.exe beëindigd, module vbe7.dll) op meerdere werkplekken."
+INC-4271,Netwerk,Hoog,0,0,"De melding 'Gateway timeout, geen antwoord van vpn-gw-02' wijst op een VPN/gateway bereikbaarheidsprobleem in het netwerk."
+INC-4273,Software,Normaal,0,0,"DisplayLink-adapter meldt een verbroken verbinding en het probleem treedt op bij meerdere docks, wat wijst op een software/drivers-gerelateerd probleem op de laptop."
+INC-4274 ,Hardware,laag,0,0,"Behoefte aan fysieke werkplekkequipment (bureau, stoel en stopcontacten) voor verhuizing naar de tweede verdieping."
+INC-4276,Hardware,Normaal,0,0,"Na de firmware-update van het dockingstation wordt de tweede monitor niet herkend en verschijnt de melding 'USB-C alt mode niet onderhandeld', wat duidt op een docking/hardware-gerelateerde oorzaak."
+INC-4279,Overig,,1,0,"Onvoldoende informatie om de onderliggende oorzaak te bepalen; de melding bevat enkel 'werkt niet' zonder aan te geven welk apparaat, programma of verbinding niet werkt."
+INC-4282,Hardware,urgent!!!,0,0,"HDMI-switcher in de kast was losgekoppeld tijdens de schoonmaak, waardoor geen signaal naar het scherm komt."
+INC-4284,Toegang & Accounts,P1,0,0,"Verlopen API-sleutel van de koppeling veroorzaakt HTTP 401 op het endpoint /orders, waardoor webshoporders niet in ERP binnenkomen."
+INC-4286,Netwerk,normaal,0,0,Gemiddeld pakketverlies van 11 procent richting mediarelay veroorzaakt haperingen in videovergaderingen.
+INC-4288,Hardware,laag,0,0,"Displaypoort signaalintegriteitswaarschuwing en aanhoudende flicker/uitschakeling ondanks vervanging van kabels en het testen op meerdere poorten en laptops, wat wijst op een hardwaregerelateerd display/connectivity probleem."
+INC-4290,Printer,normaal,0,0,Printer levert lege pagina's na tonerwissel; systeemmelding Tonerniveau kritisch en drukkop mogelijk niet geplaatst.
+INC-4295,Security,laag,0,1,"Een onbekende USB-stick werd in de werklaptop geplaatst en het systeem blokkeerde autorun.inf op het verwisselbaar medium, wat wijst op een mogelijk beveiligingsincident."
+INC-4297,Toegang & Accounts,normaal,0,0,Toegang geweigerd tot \\fileserver01\\afdeling_inkoop; mogelijk groepslidmaatschap niet bijgewerkt na functiewijziging.
+INC-4299,Security,normaal,0,1,"Verdachte e-mail die eruitziet als een factuur, met afwijkende afzender en link naar onbekend domein, duidt op phishingpoging."
+INC-4300,Toegang & Accounts,,0,0,Kan niet inloggen op portal; gebruiker vraagt om wachtwoord reset.
+INC-4303,Software,hoog ,0,0,"Hoge disk-usage (100%) op de laptop wordt veroorzaakt door Antimalware Service Executable, een onderdeel van de standaard antivirussoftware."
+INC-4304,Netwerk,hoog,0,0,Gastennetwerk kan captive portal/loginpagina niet tonen; gebruikers zien het netwerk wel maar kunnen zich niet aanmelden via de voucher.
+INC-4305,Software,normaal,0,0,"Teams kan de microfoon niet enumereren terwijl Windows geluidinstellingen en andere apps de headset wel herkennen, wat wijst op een softwareprobleem in de Teams-client."
+INC-4308,Mobiel Toestel,normaal,0,0,Installatie van bedrijfsapp op mobiel toestel via MDM blijft hangen ('App install pending') en de device compliance-status is onbekend.
+INC-4309,Netwerk,P1,0,0,Primaire WAN-verbinding (glasvezel) is down door een providerstoring; failover is actief.
+INC-4311,Printer,,0,0,Printer op de 1e verdieping staat offline in de lijst terwijl het lampje groen brandt; andere printers werken wel.
+INC-4316,Netwerk,laag,0,0,"Concurrent sessions op vpn-gw-01 boven 90% van de licentielimiet, wat de VPN-prestaties kan verklaren."
+INC-4318,Applicatieondersteuning,normaal,0,0,Dubbeltelling van omzet in het CRM-maandrapport door een fout in de rapportdefinitie/logica; onderliggende records kloppen wel en het probleem ontstond na de laatste release.
+INC-4320,Overig,,1,0,De tekst is vaag en mist context/informatie over het probleem; de interne notitie bevestigt dat de melder om toelichting wordt gevraagd.
+INC-4321,Netwerk,normaal ,0,0,"Bekabelde verbinding valt weg in vergaderruimte; switchport 1/24 meldt 'Interface flap detected' en 'link state change', ondanks vervanging kabels en testen met meerdere laptops."
+INC-4324,Printer,normaal,0,0,"Printerdriverinstallatie op de nieuwe laptop faalt met foutmelding 'driver niet ondertekend', waardoor de multifunctional niet kan worden toegevoegd."
+INC-4325,Netwerk,hoog,0,0,"Netwerkswitch SW-3F-02 was onbereikbaar/down, waardoor printer en andere netwerkdiensten (mail en netwerkdrive) niet bereikbaar; de switch is hersteld."
+INC-4328,Netwerk,normaal,0,0,Systeemmelding: SMB-latency boven drempelwaarde en retransmissies gedetecteerd duidt op netwerk-/SMB-problemen bij de netwerkschijf.

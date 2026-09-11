@@ -1,0 +1,102 @@
+{
+  "model": "gpt-5-nano",
+  "accuracy": 0.92,
+  "correct": 92,
+  "total": 100,
+  "misclassified": 8,
+  "classification_report": {
+    "Hardware": {
+      "precision": 0.9090909090909091,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9090909090909091,
+      "support": 11.0
+    },
+    "Software": {
+      "precision": 0.9,
+      "recall": 0.9,
+      "f1-score": 0.9,
+      "support": 10.0
+    },
+    "Netwerk": {
+      "precision": 0.8666666666666667,
+      "recall": 1.0,
+      "f1-score": 0.9285714285714286,
+      "support": 13.0
+    },
+    "Toegang & Accounts": {
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9333333333333333,
+      "support": 15.0
+    },
+    "Printer": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8888888888888888,
+      "support": 9.0
+    },
+    "Mobiel Toestel": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 9.0
+    },
+    "Security": {
+      "precision": 0.8461538461538461,
+      "recall": 1.0,
+      "f1-score": 0.9166666666666666,
+      "support": 11.0
+    },
+    "Applicatieondersteuning": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 12.0
+    },
+    "Overig": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "accuracy": 0.92,
+    "macro avg": {
+      "precision": 0.927125960459294,
+      "recall": 0.918294051627385,
+      "f1-score": 0.9193923360590026,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.9257435897435897,
+      "recall": 0.92,
+      "f1-score": 0.9195274170274169,
+      "support": 100.0
+    }
+  },
+  "validation": {
+    "flagged": 5,
+    "errors": 8,
+    "errors_flagged": 1,
+    "error_detection_rate": 0.125
+  },
+  "run_statistics": {
+    "api_calls": 100,
+    "input_tokens": 115626,
+    "output_tokens": 105847,
+    "reasoning_tokens": 96448,
+    "visible_output_tokens": 9399,
+    "total_tokens": 221473,
+    "wall_clock_runtime_seconds": 635.3019382999919,
+    "average_runtime_per_ticket": 6.353019382999919,
+    "retries": 0
+  },
+  "cost": {
+    "currency": "EUR",
+    "input_price_per_million": 0.05,
+    "output_price_per_million": 0.35,
+    "input_cost": 0.0057813000000000005,
+    "output_cost": 0.037046449999999995,
+    "total_cost": 0.04282775,
+    "cost_per_ticket": 0.0004282775
+  }
+}

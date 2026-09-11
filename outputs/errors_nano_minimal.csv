@@ -1,0 +1,13 @@
+ticket_id,categorie_gold,categorie_pred,prioriteit,te_valideren,security_flag,reden
+INC-4138,Security,Toegang & Accounts,hoog,0,1,"MFA-verzoeken vanaf onbekende IP-reeks wijzen op verdachte inlogpogingen en mogelijke beveiligingsincident, naast inlogprobleem."
+INC-4144,Printer,Netwerk,laag,0,0,MFP-2F-03 SMTP-relay weigert berichten naar e-mail adressen; probleem is netwerk/ SMTP-relay configuratie voor scan-to-email op multifunctional.
+INC-4153,Toegang & Accounts,Printer,normaal,0,0,Printerspecifieke authenticatie voor pull printing faalt na wachtwoordwijziging; badge-id is niet gekoppeld aan gebruiker ondanks succesvolle login bij andere systemen. issue draait om printopdracht vrijgave en koppeling badge-id/ gebruiker.
+INC-4158,Mobiel Toestel,Netwerk,normaal,0,0,"Mobiele data geblokkeerd door MDM-profiel op het zakelijke toestel, waardoor buiten wifi geen internettoegang meer is"
+INC-4162,Mobiel Toestel,Netwerk,laag,0,0,Vraag over roaming en databundel voor zakelijk abonnement in Canada (connectiviteit en kosten)
+INC-4221,Overig,Security,laag,0,1,"Ticket vraagt naar beleid en verwerking van klantgegevens door een publieke AI-chatbot, wat risico’s voor beveiliging en privacy oplevert (dataprivacy/usage policy en mogelijke datalekrisico)."
+INC-4232,Applicatieondersteuning,Security,hoog,0,1,Antivirus blokkeert/zet in quarantaine een legitieme calculatietool met heuristische detectie; incident melding van quarantaine door beveiligingssoftware.
+INC-4258,Software,Hardware,Hoog,0,0,Laptop start problemen na Windows-beveiligingsupdate met foutcode 0xc000000f; mogelijk bootopstart/Hardwarerelevante storing.
+INC-4259,Software,Applicatieondersteuning,Normaal,0,0,"Outlook-crash bij openen ondanks stappen (add-ins uitgezet, profiel aangemaakt, Office gerepareerd); melding faulting application outlook.exe (0xc0000005) duidt op probleem in de bedrijfsapplicatie Outlook/Office."
+INC-4288,Hardware,Netwerk,laag,0,0,Monitor flikkert en valt uit met signaal-integriteitswaarschuwing op displaypoort; getest met verschillende kabels/poorten/laptops – onvoldoende teken van fysieke netwerkproblemen; melding wijst op display-/signaalprobleem (niet netwerkinfrastructuur)
+INC-4305,Software,Applicatieondersteuning,normaal,0,0,"Probleem met Teams ontbrekende microfoon/applicatie-instelling; audiodriver werkt wel buiten Teams, maar Teams kan apparaat niet enumerateert"
+INC-4325,Netwerk,Printer,hoog,0,0,Probleem met printerfuncties in combinatie met netwerkissues: melding over switch (netwerkapparatuur) en bevestiging dat printen weer werkt nadat switch is hersteld.
